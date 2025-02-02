@@ -12,8 +12,8 @@ jobs:
     name: Build bootc image
     runs-on: ubuntu-latest
     env:
-      IMAGE_NAME: <change>
-      REGISTRY: <change>
+      IMAGE_NAME: getting-started-tutorial
+      REGISTRY: ghcr.io/no9
     permissions:
       contents: read
       packages: write

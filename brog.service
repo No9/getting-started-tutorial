@@ -7,7 +7,7 @@ Type=simple
 RemainAfterExit=yes
 ExecStart=/usr/bin/brog
 TimeoutStartSec=0
-Environment=ENDPOINT=<change>
+Environment=ENDPOINT=https://raw.githubusercontent.com/No9/getting-started-tutorial/refs/heads/main/brog.yaml
 Environment=SCHEDULE="every 5 seconds"
 
 [Install]
